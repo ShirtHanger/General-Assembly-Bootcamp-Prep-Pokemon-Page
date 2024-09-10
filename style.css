@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Tiny5&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url("https://pokemonrevolution.net/forum/uploads/monthly_2021_03/DVMT-6OXcAE2rZY.jpg.afab972f972bd7fbd4253bc7aa1cf27f.jpg");
+  background-size: cover;
+  background-position: inherit; /* TBH no clue what this does, it just works*/
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.container {
+  width: 500px;
+  height: 350px;
+  background: black;
+  color: limegreen;
+}
+
+/* Source for background: 
+https://pokemonrevolution.net/forum/topic/171529-battle-screen-background/?do=findComment&comment=960582
+Rhev on PokemonRevolution.net 
+https://pokemonrevolution.net/forum/profile/1885484-rhev/ */
+
+img {
+  width: 175px;
+  height: 175px;
+}
+
+#pokemon-info {
+  width: 265px;
+  height: 350px;
+  float: left;
+  text-align: center;
+}
+
+#pokemon-stats {
+  width: 230px;
+  height: 350px;
+  float: right;
+  border-left: 2px solid limegreen;
+}
+
+button {
+  margin-left: 150px;
+  width: 220px;
+  margin-top: 10px;
+  padding: 10px;
+  background: dimgray;
+  color: white;
+  border: none;
+
+}
+
+h2 {
+  margin-left: 60px;
+  margin-top: 75px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px;
+  margin-left: 60px;
+}
+
+.lightMode {
+  background: #fbe9d0;
+  color: black;
+}
